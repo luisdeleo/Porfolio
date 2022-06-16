@@ -1,0 +1,49 @@
+{
+    "name": "Luis Alejandro De Leonibus",
+    "edad": "30",
+    "backImage": "https://midu.dev/images/wallpapers/una-taza-de-javascript.png",
+    "education": {
+        "school": "EEM N° 11 America Libre",
+        "ubication": "Morón",
+        "start": "2015",
+        "end": "2017",
+        "career": "Administración y Gestión de empresas",
+        "courses": {
+            "name": "AWS Cloud Practioner",
+            "career": "Cloud Practitioner",
+            "start": "09/2021",
+            "end": "11/2021",
+            "status": "Certificado",
+            "certificate": "No"
+        },
+        "courses2": {
+            "name": "Oracle Next Education",
+            "career": "DevOps",
+            "start": "04/2022",
+            "end": "2022",
+            "status": "en curso",
+            "certificate": "Si"
+        }
+    },
+    "experience": {
+        "name": "Buenos Aires Bus S.A.",
+        "position": "Conductor",
+        "start": "06/2012",
+        "end": "12/2012",
+        "ubication": "La Matanza"
+    },
+    "experience2": {
+        "name": "Ministerio de obras y servicios publicos",
+        "position": "Inspector",
+        "start": "01/2010",
+        "end": "06/2011",
+        "ubication": "La Plata"
+    },
+    "experience3":{
+        "name": "Nuestras Raices: Viajes y Turismo",
+        "position": "Coopropietario",
+        "start": "09/2011",
+        "end": "06/2012",
+        "ubication": "La Matanza"
+    }
+}
