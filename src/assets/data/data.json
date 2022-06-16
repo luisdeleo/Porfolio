@@ -1,7 +1,6 @@
 {
     "name": "Luis Alejandro De Leonibus",
     "edad": "30",
-    "backImage": "https://midu.dev/images/wallpapers/una-taza-de-javascript.png",
     "education": {
         "school": "EEM N° 11 America Libre",
         "ubication": "Morón",
@@ -9,20 +8,31 @@
         "end": "2017",
         "career": "Administración y Gestión de empresas",
         "courses": {
-            "name": "AWS Cloud Practioner",
+            "name": "AWS Cloud Practitioner",
+            "enterprise": "Amazon Web Service",
             "career": "Cloud Practitioner",
             "start": "09/2021",
             "end": "11/2021",
             "status": "Certificado",
-            "certificate": "No"
+            "certificate": "Si"
         },
         "courses2": {
             "name": "Oracle Next Education",
+            "enterprise": "Oracle",
             "career": "DevOps",
             "start": "04/2022",
             "end": "2022",
             "status": "en curso",
-            "certificate": "Si"
+            "certificate": "No"
+        },
+        "courses3": {
+            "name": "Argentina Programa",
+            "enterprise": "Ministerio de Desarrollo de la Nación",
+            "career": "Full Stack jr.",
+            "start": "2021",
+            "end": "08/2022",
+            "status": "en curso",
+            "certificate": "No"
         }
     },
     "experience": {

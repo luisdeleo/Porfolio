@@ -5,23 +5,19 @@
     <div class="container py-4">
         <div class="row align-items-center py-3">
             <div class="col-sm-4">
-                <img src="#" alt="Perfil" class="img-fluid imagen">
+                <img src="./assets/images/image.png" alt="Perfil" class="img-fluid imagen">
             </div>
             <div class="col-sm-8 mt-3" align="center">
                 <p class="fs-4 ">Mi nombre es {{miPorfolio?.name}}, tengo 30 años, soy de la ciudad de Morón,
-                    Buenos Aires,
-                    tengo 2 hermosos hijos
-                    y hoy me encuentro en búsqueda de mi próxima
-                    aventura! Soy egresado de bachiller con orientación en {{miPorfolio?.education.career}}
+                    Buenos Aires.
+                    Soy egresado de bachiller con orientación en {{miPorfolio?.education.career}}
                     (2017).
-                    Además soy egresado del
-                    curso “{{miPorfolio?.education.courses.name}}” impartido por la Universidad Nacional de la Matanza, ademas
-                    participo
-                    de la
-                    capacitación en programación como del curso “{{miPorfolio?.education.courses2.name}}” impartido por el Ministerio de
-                    Desarrollo de la Nación y en DevOps con la prestigiosa empresa Oracle, a traves de su linea
-                    "ORACLE
-                    NEXT EDUCATION".</p>
+                    Poseo la certificación “{{miPorfolio?.education.courses.name}}” de {{miPorfolio?.education.courses.enterprise}},
+                    soy egresado del curso
+                    de programación “{{miPorfolio?.education.courses3.name}} Se Programar" (finalizando la etapa 2 "Yo Programo") 
+                    impartido por el Ministerio de
+                    Desarrollo de la Nación y participo de la capacitación en {{miPorfolio?.education.courses2.career}} con la prestigiosa empresa {{miPorfolio?.education.courses2.enterprise}}, a traves de su linea
+                    {{miPorfolio?.education.courses2.name}}".</p>
             </div>
         </div>
     </div>

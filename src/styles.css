@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --light-grey: #f3f3f3;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1,
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#imagenC {
+    margin: 1rem auto 0 auto;
+}
+
+.background-grey {
+    background-color: var(--light-grey);
+}
+
+.imagen {
+    width: 50%;
+    height: 50%;
+}
+
+.texto-abajo {
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre
+}
+
+.image {
+    opacity: 50%;
+}
+
+
+.h2-lines {
+    display: inline-block;
+    position: relative;
+    left: 5rem;
+}
