@@ -7,10 +7,11 @@ import { PresentationComponent } from './components/presentation/presentation.co
 import { ExperienceComponent } from './components/experience/experience.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { EducationComponent } from './components/education/education.component';
-import { ProgrammingComponent } from './components/programming/programming.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PorfolioService } from './servicies/porfolio.service';
 import { HttpClientModule } from '@angular/common/http';
+import { JobsComponent } from './components/jobs/jobs.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +21,9 @@ import { HttpClientModule } from '@angular/common/http';
     ExperienceComponent,
     ContactComponent,
     EducationComponent,
-    ProgrammingComponent,
-    FooterComponent
+    FooterComponent,
+    JobsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

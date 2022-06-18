@@ -1,43 +1,66 @@
+<header class="container-fluid primer">
+    <div class="row justify-content-start">
+        <div class="col-lg-12">
+            <div>
+                <h2 class="display-4 text" style="color: #acb3bd;"><br>{{miPorfolio?.name}}
+                    <span>
+                        <img class="aws1" src="./assets/images/image.png" alt="aws">
+                    </span>
+                </h2>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
     <div class="container-fluid">
         <a class="navbar-brand"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#Presentacion">Presentación</a>
+                    <a class="nav-link text-light" [routerLink]="['/Inicio/Presentacion']">Presentación</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Experiencia">Experiencia</a>
+                    <a class="nav-link text-light" [routerLink]="['/Inicio/Experiencia']">Experiencia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Porque">Trabajos</a>
+                    <a class="nav-link text-light" [routerLink]="['/Inicio/Trabajos']">Trabajos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Educacion">Educación</a>
+                    <a class="nav-link text-light" [routerLink]="['/Inicio/Educacion']">Educación</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Contacto">Contacto</a>
+                    <a class="nav-link text-light" [routerLink]="['/Inicio/Contacto']">Contacto</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 
-<header class="header">
+<router-outlet></router-outlet>
+
+
+<!--<header>
     <div class="contenedor">
         <img class="img-fluid w-100 image" src="https://wallpaperboat.com/wp-content/uploads/2019/10/coding-07.jpg"
             alt="Portada" />
         <div class="container-lg texto">
             <div class="row justify-content-start">
                 <div class="col-6">
-                    <h1 class="display-1">{{miPorfolio?.name}}</h1>
+                    <h1>Bienvenido a mi Porfolio</h1>
+                    <h1 class="display-1"> Mi nombre es {{miPorfolio?.name}}</h1>
+                </div>
+                <div>
+                <img class="img-fluid" src="./assets/images/image.png" alt="aws">
                 </div>
             </div>
         </div>
     </div>
-</header>
+</header>-->

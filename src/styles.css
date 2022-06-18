@@ -1,5 +1,6 @@
 :root {
     --light-grey: #f3f3f3;
+    --blue-majorelle: #5564eb;
 }
 
 p {
@@ -9,11 +10,7 @@ p {
 h1,
 h4 {
     font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-}
-
-#imagenC {
-    margin: 1rem auto 0 auto;
+    padding: 15px;
 }
 
 .background-grey {
@@ -23,6 +20,7 @@ h4 {
 .imagen {
     width: 50%;
     height: 50%;
+    box-shadow: 0px 2px 4px #000000bd;
 }
 
 .texto-abajo {
@@ -30,29 +28,30 @@ h4 {
     padding-bottom: 3rem;
 }
 
-.contenedor {
-    position: relative;
-    display: inline-block;
-    text-align: center;
+.primer {
+    background-color: var(--blue-majorelle);
 }
 
-.texto {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: pre
+.primer{
+    color:white;
+    text-shadow: 0px 2px 2px #000000bd;
 }
 
 .image {
     opacity: 50%;
 }
 
-
+h1{
+    text-shadow: 0px 2px 2px #0000005e;
+    padding: 20px;
+    margin-left: 2rem;
+}
 .h2-lines {
     display: inline-block;
     position: relative;
     left: 5rem;
+}
+
+.aws1{
+    width: 10%;
 }
